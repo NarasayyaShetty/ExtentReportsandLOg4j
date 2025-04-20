@@ -26,6 +26,7 @@ test {
     useTestNG(){
         outputDirectory=file("Output-result");
         useDefaultListeners=true;
+        suites 'src/test/resources/testng.xml'
 
     }
 }
