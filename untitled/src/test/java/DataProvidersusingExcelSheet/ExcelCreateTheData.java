@@ -22,7 +22,7 @@ public class ExcelCreateTheData {
             Workbook workbook=new XSSFWorkbook();
             Sheet sheet=workbook.createSheet("TestCase01");
             Scanner sc=new Scanner(System.in);
-            System.out.println("print the length row");
+            System.out.println("print the length of the row");
             int n=sc.nextInt();
 
 
