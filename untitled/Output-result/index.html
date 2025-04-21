@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,26 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ExtentReports" title="Tests.TestCase01" class="method navigator-link" hash-for-method="testcase01">testcase01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="Tests.TestCase01" class="method navigator-link" hash-for-method="testcase02">testcase02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="Tests.TestCase01" class="method navigator-link" hash-for-method="testcase02">testcase02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="Tests.TestCase01" class="method navigator-link" hash-for-method="testcase03">testcase03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="Tests.TestCase01" class="method navigator-link" hash-for-method="testcase03">testcase03</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ExtentReports -->
@@ -145,6 +165,42 @@
                   <span class="method-name">testcase01</span>
                   <em>
 (testcaseo1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase02">
+                  </a> <!-- testcase02 -->
+                  <span class="method-name">testcase02</span>
+                  <em>
+(testcaseo2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase02">
+                  </a> <!-- testcase02 -->
+                  <span class="method-name">testcase02</span>
+                  <em>
+(testcaseo2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase03">
+                  </a> <!-- testcase03 -->
+                  <span class="method-name">testcase03</span>
+                  <em>
+(testcaseo3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase03">
+                  </a> <!-- testcase03 -->
+                  <span class="method-name">testcase03</span>
+                  <em>
+(testcaseo3)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,20 +267,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testcase01')
 data.setCell(0, 2, 'Tests.TestCase01')
-data.setCell(0, 3, 2011);
+data.setCell(0, 3, 736);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testcase01')
 data.setCell(1, 2, 'Tests.TestCase01')
-data.setCell(1, 3, 1008);
+data.setCell(1, 3, 461);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase02')
+data.setCell(2, 2, 'Tests.TestCase01')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase03')
+data.setCell(3, 2, 'Tests.TestCase01')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase02')
+data.setCell(4, 2, 'Tests.TestCase01')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase03')
+data.setCell(5, 2, 'Tests.TestCase01')
+data.setCell(5, 3, 0);
 window.suiteTableData['ExtentReports']= { tableData: data, tableDiv: 'times-div-ExtentReports'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-ExtentReports">
               </div> <!-- times-div-ExtentReports -->
             </div> <!-- times-div -->
@@ -252,21 +324,93 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.TestCase01</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">initSetup(chrome)</span>
+                <span class="method-name">driverinit(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">initSetup(firefox)</span>
+                <span class="method-name">driverinit(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase01())</span>
+                <span class="method-start">1413 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testcase01</span>
-                <span class="method-start">3301 ms</span>
+                <span class="method-start">1554 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase01 status=SUCCESS method=TestCase01.testcase01()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">2015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcase02</span>
+                <span class="method-start">2024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase02())</span>
+                <span class="method-start">2024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase02 status=SUCCESS method=TestCase01.testcase02()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">2028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase03())</span>
+                <span class="method-start">2031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase03 status=SUCCESS method=TestCase01.testcase03()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">2033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcase03</span>
+                <span class="method-start">2033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">2038 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase01())</span>
+                <span class="method-start">3473 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testcase01</span>
-                <span class="method-start">31249 ms</span>
+                <span class="method-start">3476 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase02())</span>
+                <span class="method-start">4212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase01 status=SUCCESS method=TestCase01.testcase01()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">4212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcase02</span>
+                <span class="method-start">4216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase02 status=SUCCESS method=TestCase01.testcase02()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">4216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachMethod(public void Tests.TestCase01.testcase03())</span>
+                <span class="method-start">4216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=testcase03 status=SUCCESS method=TestCase01.testcase03()[pri:0, instance:Tests.Test...)</span>
+                <span class="method-start">4221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcase03</span>
+                <span class="method-start">4221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">4226 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
